@@ -1,0 +1,35 @@
+.wrapper {
+  position: relative;
+  background-color: transparent;
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+}
+
+.modalBtn {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 100%;
+  background-color: rgb(185, 155, 212);
+  color: white;
+  &:hover,
+  :focus {
+    background-color: rgb(143, 119, 163);
+  }
+}
+
+.image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+}

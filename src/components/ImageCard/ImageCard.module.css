@@ -1,0 +1,15 @@
+.image {
+  border-radius: 5px;
+  box-shadow: 5px 3px 3px rgb(167, 143, 167);
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+.item {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: lighter;
+}

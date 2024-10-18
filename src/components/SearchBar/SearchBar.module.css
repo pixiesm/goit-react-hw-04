@@ -1,0 +1,31 @@
+.header {
+  background-color: rgb(140, 140, 201);
+  padding: 20px;
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+.input {
+  padding: 10px;
+  width: 250px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  background-color: rgb(185, 155, 212);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  &:hover,
+  :focus {
+    background-color: rgb(143, 119, 163);
+  }
+}

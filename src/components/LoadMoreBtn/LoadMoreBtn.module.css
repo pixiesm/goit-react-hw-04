@@ -1,0 +1,20 @@
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.button {
+  cursor: pointer;
+  border-radius: 5px;
+  outline: none;
+  padding: 10px;
+  border: none;
+  background-color: rgb(185, 155, 212);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  &:hover,
+  :focus {
+    background-color: rgb(143, 119, 163);
+  }
+}
